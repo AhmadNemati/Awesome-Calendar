@@ -5,4 +5,13 @@ package com.ahmadnemati.awesomecalendar.entity;
  */
 
 public class ConfigEntity {
+    private int maxPages;
+
+    public int getMaxPages() {
+        return maxPages;
+    }
+
+    public void setMaxPages(int maxPages) {
+        this.maxPages = maxPages;
+    }
 }
