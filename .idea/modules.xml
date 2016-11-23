@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Awesome-Calendar.iml" filepath="$PROJECT_DIR$/Awesome-Calendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/AwesomeCalendarApp.iml" filepath="$PROJECT_DIR$/AwesomeCalendarApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/awesomecalendar/awesomecalendar.iml" filepath="$PROJECT_DIR$/awesomecalendar/awesomecalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/awesomecalendar/awesomecalendar.iml" filepath="$PROJECT_DIR$/awesomecalendar/awesomecalendar.iml" />
     </modules>
   </component>

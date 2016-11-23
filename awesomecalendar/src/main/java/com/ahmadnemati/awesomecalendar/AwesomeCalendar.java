@@ -33,6 +33,9 @@ public class AwesomeCalendar extends LinearLayout implements ViewPager.OnPageCha
     private ViewPagerAdapter adapter;
     private FragmentManager fm;
     private ConfigEntity config;
+    private int dayTextColor;
+    private float dayTextSize;
+    private int selectedColor;
 
 
 
@@ -56,7 +59,7 @@ public class AwesomeCalendar extends LinearLayout implements ViewPager.OnPageCha
     private void init() {
 
 
-    //    EventBus.getDefault().register(this);
+        //    EventBus.getDefault().register(this);
         initConfig();
         LayoutInflater.from(getContext()).inflate(R.layout.awesome_calendar, this);
         FragmentActivity fragmentActivity = (FragmentActivity) getContext();
@@ -113,6 +116,30 @@ public class AwesomeCalendar extends LinearLayout implements ViewPager.OnPageCha
 
     public void setOnMonthChangeListener(OnMonthChangeListener onMonthChangeListener) {
         this.onMonthChangeListener = onMonthChangeListener;
+    }
+
+    public int getDayTextColor() {
+        return dayTextColor;
+    }
+
+    public void setDayTextColor(int dayTextColor) {
+        this.dayTextColor = dayTextColor;
+    }
+
+    public float getDayTextSize() {
+        return dayTextSize;
+    }
+
+    public void setDayTextSize(float dayTextSize) {
+        this.dayTextSize = dayTextSize;
+    }
+
+    public int getSelectedColor() {
+        return selectedColor;
+    }
+
+    public void setSelectedColor(int selectedColor) {
+        this.selectedColor = selectedColor;
     }
 
     @Override
