@@ -1,4 +1,4 @@
-package com.ahmadnemati.awesomecalendar.utils;
+package com.ahmadnemati.awesomecalendar.enums;
 
 /**
  * Created by Ahmad Nemati on 11/23/2016.

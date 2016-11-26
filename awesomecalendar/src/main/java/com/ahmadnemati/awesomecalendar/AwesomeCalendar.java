@@ -15,9 +15,7 @@ import com.ahmadnemati.awesomecalendar.adapter.ViewPagerAdapter;
 import com.ahmadnemati.awesomecalendar.entity.ConfigEntity;
 import com.ahmadnemati.awesomecalendar.listener.OnDayClickListener;
 import com.ahmadnemati.awesomecalendar.listener.OnMonthChangeListener;
-import com.ahmadnemati.awesomecalendar.utils.LogLevel;
-
-import org.greenrobot.eventbus.EventBus;
+import com.ahmadnemati.awesomecalendar.enums.LogLevel;
 
 /**
  * Created by Ahmad Nemati on 11/23/2016.
